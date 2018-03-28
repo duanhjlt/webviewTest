@@ -453,7 +453,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WebviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -475,7 +475,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WebviewTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebviewTest.app/WebviewTest";
 			};
@@ -487,7 +487,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WebviewTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTestTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebviewTest.app/WebviewTest";
 			};
@@ -498,7 +498,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = WebviewTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = WebviewTest;
 			};
@@ -509,7 +509,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = WebviewTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.comisys.WebviewTestUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.duanhongjin.WebviewTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = WebviewTest;
 			};
@@ -534,6 +534,7 @@
 				113A75C81DDDF6C9008D2AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113A75C91DDDF6C9008D2AB3 /* Build configuration list for PBXNativeTarget "WebviewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				113A75CB1DDDF6C9008D2AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		113A75CC1DDDF6C9008D2AB3 /* Build configuration list for PBXNativeTarget "WebviewTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				113A75CE1DDDF6C9008D2AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
